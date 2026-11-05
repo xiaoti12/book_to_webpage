@@ -1,0 +1,19 @@
+# 电子书原文件
+*.epub
+*.pdf
+
+# 抽取产物（含原书正文）
+output*/
+out/
+
+# 针对具体书的导出脚本
+extract_*.py
+!extract_template.py
+
+# Python
+.venv/
+__pycache__/
+*.py[cod]
+
+# macOS
+.DS_Store
